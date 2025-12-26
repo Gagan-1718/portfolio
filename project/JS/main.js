@@ -43,7 +43,7 @@ ScrollReveal().reveal('.home-contact h1,about-img', {origin:'left'});
 ScrollReveal().reveal('.home-contact p,.about-content', {origin:'right'});
 
 const typed=new Typed('.mulitple-text',{
-    strings: ['AIML Engineer', 'Frontend Developer','Tabla Artist'],
+    strings: ['AIML Engineer', 'Tech Enthusiast','Tabla Artist'],
     typeSpeed:50,
     backSpeed:50,
     backDelay:1000,

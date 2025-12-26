@@ -75,6 +75,7 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 18rem;
 }
 
 .home-content h3 {
@@ -97,9 +98,11 @@ span {
 }
 
 .home-img img {
-  width: 25vw;
-  border-radius: 25%;
+  width: 45rem;
+  max-width: 100%;
+  border-radius: 35%;
   animation: floatImage 4s ease-in-out infinite;
+  box-shadow: 0 0 40px rgb(135, 48, 222);
 }
 
 @keyframes floatImage {
@@ -160,7 +163,7 @@ span {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 2rem;
+  gap: 5rem;
   background: var(--snd-bg-color);
 }
 
