@@ -376,10 +376,16 @@ span {
   .header{
     padding: 2rem 4%;
   }
-  
-  #menu-icon{
+
+  #menu-icon {
+    position: absolute;
+    right: 2rem;
+    top: 50%;
+    transform: translateY(-50%);
     display: block;
+    z-index: 1001;
   }
+}
 
   .navbar{
     position: absolute;
@@ -439,7 +445,7 @@ span {
   .portfolio-container{
     grid-template-columns: repeat(2,1fr);
   }
-}
+
 
 @media(max-width: 617px) {
   .portfolio-container{
