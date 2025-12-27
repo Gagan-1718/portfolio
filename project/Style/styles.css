@@ -385,7 +385,7 @@ span {
     display: block;
     z-index: 1001;
   }
-}
+
 
   .navbar{
     position: absolute;
@@ -462,7 +462,7 @@ span {
     margin-top: 4rem;
   }
 }
-
+}
 @media(max-width:450px){
   html{
     font-size: 50%;
